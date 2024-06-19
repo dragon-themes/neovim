@@ -1,25 +1,20 @@
 local kaiser = {
-  black = "#282828",
-  black2 = "#3c3836",
-  black3 = "#504945",
-  white = "#d5c4a1",
-  yellow = "#fabd2f",
-  dark_yellow = "#d79921", -- nao usado
-  orange = "#fe8019",      -- nao usado
-  dark_orange = "#d65d0e",
-  red = "#fb4934",
-  dark_red = "#cc241d",     -- nao usado
-  purple = "#d3869b",
-  dark_purple = "#b16286", -- nao usado
-  blue = "#83a598",
-  dark_blue = "#458588",    -- nao usado
-  aqua = "#8ec07c",
-  dark_aqua = "#689d6a",    -- nao usado
-  green = "#b8bb26",
-  dark_green = "#98971a",   -- nao usado
-  grey = "#a89984",
-  dark_grey = "#7c6f64"
+  black = "#d5c4a1",          --1
+  red = "#cc241d",            --2 nao usado
+  green = "#d3869b",          --3
+  yellow = "#504945",         --4
+  blue = "#b8bb26",           --5
+  magenta = "#8ec07c",        --6
+  cyan = "#a89984",           --7
+  white = "#282828",          --8
+  bright_black = "#3c3836",   --9
+  bright_red = "#fb4934",     --10
+  bright_green = "#fabd2f",   --11
+  bright_yellow = "#7c6f64",  --12
+  bright_blue = "#83a598",    --13
+  bright_magenta = "#d65d0e", --14 nao usado
+  bright_cyan = "#689d6a",    --15
+  bright_white = "#458588",   --16
 }
 
 require('dragon-themes').colorscheme('kaiser', kaiser)
-
