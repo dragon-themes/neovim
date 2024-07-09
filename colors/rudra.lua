@@ -1,7 +1,7 @@
 local rudra = {
   black = "#c6cedb",          --1 foreground
   red = "#cc241d",            --2 error
-  green = "#b16286",          --3 text_number
+  green = "#d3869b",          --3 text_number
   yellow = "#585d81",         --4 ui2
   blue = "#82d3cb",           --5 color_support
   magenta = "#c3ed91",        --6 text_string
