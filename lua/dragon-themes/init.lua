@@ -190,6 +190,10 @@ function create_theme(ansi)
       VimwikiLinkText = { fg = pallet.color_support, style = "u" },
       VimwikiLinkTextStd = { fg = pallet.color_support, style = "u" },
       VimwikiPre = { fg = pallet.color_primary, style = "b" },
+    },
+    ["cmp"] = {
+      CmpItemKind    = { fg = pallet.color_secondary },
+      CmpItemKindDefault = { fg = pallet.color_secondary },
     }
   }
   return theme
