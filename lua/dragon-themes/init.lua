@@ -163,9 +163,14 @@ function create_theme(ansi)
       jsonCommentError = { fg = pallet.text_comment, style = "ib" },
     },
     GitSigns = {
-      GitSignsChange = { fg = pallet.warning, bg = pallet.ui1 },
       GitSignsAdd = { fg = pallet.info, bg = pallet.ui1 },
-      GitSignsDelete = { fg = pallet.danger, bg = pallet.ui1 }
+      GitSignsAddNr = { fg = pallet.info, bg = pallet.ui1 },
+      GitSignsChange = { fg = pallet.warning, bg = pallet.ui1 },
+      GitSignsChangeNr = { fg = pallet.warning, bg = pallet.ui1 },
+      GitSignsChangeDeleteNr = { fg = pallet.warning, bg = pallet.ui1 },
+      GitSignsDelete = { fg = pallet.danger, bg = pallet.ui1 },
+      GitSignsChangeDelete = { fg = pallet.warning, bg = pallet.ui1 },
+      GitSignsDeleteNr = { fg = pallet.danger, bg = pallet.ui1 },
     },
     telescope = {
       TelescopePromptPrefix = { fg = pallet.color_primary },
