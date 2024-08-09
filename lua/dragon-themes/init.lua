@@ -80,6 +80,7 @@ function create_theme(ansi)
       PmenuThumb = { bg = pallet.color_primary },
       --[[ Question = { fg = c.danger, style = "b" }, ]]
       Search = { fg = pallet.background, bg = pallet.color_secondary },
+      special = { fg = pallet.color_support },
       --[[ SpecialKey = { fg = c.blue }, ]]
       StatusLine = { bg = pallet.ui1, style = "b" },
       StatusLineNC = { fg = pallet.text_comment, bg = pallet.ui2, style = "b" },
@@ -120,7 +121,7 @@ function create_theme(ansi)
       ["@punctuation.delimiter"] = { fg = pallet.punctuation },
       ["@punctuation.special"] = { fg = pallet.color_secondary },
       ["@boolean"] = { fg = pallet.color_primary, style = "b" },
-      --[[ ["@punctuation.bracket"] = { fg = c.punctuation }, ]]
+      ["@punctuation.bracket"] = { fg = pallet.punctuation },
       --[[ ["@define"] = { fg = c.red }, ]]
       --[[ ["@error"] = { fg = c.red }, ]]
       --[[ ["@definition.constant"] = { fg = c.pink, style = "bold" }, ]]
